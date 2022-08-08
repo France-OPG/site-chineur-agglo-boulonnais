@@ -25,7 +25,7 @@ h6 a{
     color: white;
     text-decoration: none;
     font-family: Arial;
-    font-size: 20;
+    font-size: 14px;
     position: center;
 	margin: 0px auto;
     border: 1px solid white;
@@ -38,9 +38,8 @@ h6 a{
     display: block; /*Toute la surface sera cliquable*/
     text-decoration: none;
     color: white;
-    border-bottom: 0px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
     border-style: 5px white;
-    padding: 2px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    padding: 13px 0px;/*Agrandit le menu et espace la bordure du texte*/
 }
 
 h6 a:hover {
@@ -53,12 +52,12 @@ h5 a{
     color: white;
     text-decoration: none;
     font-family: Arial;
-    font-size: 20;
+    font-size: 14px;
     position: center;
 	margin: 0px auto;
     border: 1px solid white;
     background: #1fa22d;
-    width: 165px;
+    width: 250px;
     border-radius: 10px;
     padding: 0;
     margin: 0;
@@ -66,9 +65,8 @@ h5 a{
     display: block; /*Toute la surface sera cliquable*/
     text-decoration: none;
     color: white;
-    border-bottom: 0px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
     border-style: 5px white;
-    padding: 2px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    padding: 13px 0px;/*Agrandit le menu et espace la bordure du texte*/
 }
 
 h5 a:hover {
