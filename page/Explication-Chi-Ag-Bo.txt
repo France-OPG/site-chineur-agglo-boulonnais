@@ -16,7 +16,7 @@ La catégorie "Autres Villes", concerne le reste de l'arrondissement de Boulogne
 
 Voici l'intrégralité des villes ("Tête de liste" et "Autres Villes") :
 
-	Alincthun, Ambleteuse, Audembert, Audinghen, Audresselles, Baincthun, Bazinghen, Bellebrune, Belle-et-Houllefort, Beuvrequen, Boulogne-sur-Mer, Bournonville,
+	Alincthun, Ambleteuse, Audembert, Audinghen, Audresselles, Baincthun, Bazinghen, Bellebrune, Belle-et-Houll<efort, Beuvrequen, Boulogne-sur-Mer, Bournonville,
 	Brunembert, La Capelle-lès-Boulogne, Carly, Colembert, Condette, Conteville-lès-Boulogne, Courset, Crémarest, Dannes, Desvres, Doudeauville, Echinghen,
 	Équihen-Plage, Ferques, Halinghen, Henneveux, Hervelinghen, Hesdigneul-lès-Boulogne, Hesdin-l'Abbé, Isques, Lacres, Landrethun-le-Nord, Leubringhen, 
 	Leulinghen-Bernes, Longfossé, Longueville, Lottinghen, Maninghen-Henne, Marquise, Menneville, Nabringhen, Nesles, Neufchâtel-Hardelot, Offrethun, Outreau,
@@ -55,7 +55,10 @@ Info Divers sur Chineur-Agglo-Boulonnais :
 
 
 
+------------------------------
 
+Boulogne-sur-Mer, Le Portel, Outreau, Equihen-Plage, Wimereux, Wimille, Saint-Leonard, Saint-Martin-Boulogne, 
+La Capelle-lès-Boulogne, Saint-Etienne-au-mont, Baincthun, Hesdin-l'Abbé, Isques, Echinghen,
 
 
 
