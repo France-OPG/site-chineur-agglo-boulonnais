@@ -60,7 +60,49 @@ Info Divers sur Chineur-Agglo-Boulonnais :
 Boulogne-sur-Mer, Le Portel, Outreau, Equihen-Plage, Wimereux, Wimille, Saint-Leonard, Saint-Martin-Boulogne, 
 La Capelle-lès-Boulogne, Saint-Etienne-au-mont, Baincthun, Hesdin-l'Abbé, Isques, Echinghen,
 
+------------------------------
+1) 
+Premier avertissement ! 
+Vous nous envoyez un message spam ! 
+Ou identifier sur une publication spam !
+Merci de stoper cela.
+(2ème avertissement = perte du statut d'amis
+3ème avertissement = blocage)
 
+Premier avertissement ! 
+Vous nous envoyez un message spam ! (via un groupe)
+Ou identifier sur une publication spam !
+Merci de stoper cela.
+(2ème avertissement = perte du statut d'amis
+3ème avertissement = blocage)
+
+2)
+Deuxième avertissement ! 
+Vous nous avez envoyé à nouveau un message spam ! 
+Ou identifier sur une publication spam !
+la perte du statut d'amis est effective
+Merci de stoper cela.
+(3ème avertissement = blocage)
+
+Deuxième avertissement ! 
+Vous nous avez envoyé à nouveau un message spam ! (via un groupe)
+Ou identifier sur une publication spam !
+la perte du statut d'amis est effective
+Merci de stoper cela.
+(3ème avertissement = blocage)
+
+3)
+Bloquer ! 
+Vous nous avez envoyé à nouveau un message spam !
+Ou identifier sur une publication spam !
+le 3ème avertissement est effectif, le blocage effectué.
+Au revoir :(
+
+Bloquer ! 
+Vous nous avez envoyé à nouveau un message spam ! (via un groupe)
+Ou identifier sur une publication spam !
+le 3ème avertissement est effectif, le blocage effectué.
+Au revoir :(
 
 
 
