@@ -20,7 +20,11 @@ body {
     font-family: Arial;
     text-align: center;
     margin: auto;
-}
+  }
+  .dark-mode {
+    background-color: #ebebeb;
+    color:  #141414;
+  }
 
 h6 a{
     color: white;
@@ -54,9 +58,17 @@ h3 a{
     font-size: 18px;
 }
 
+
+
 hr {
-    background-color: #ffffff;
-}
+    background-color: #6b6b6b;
+    border-radius: 1px;
+    border: 0px solid;
+    color: #fff;
+  }
+  .dark-mode {
+    background-color: #ebebeb;
+  }
 
 /*-----------------------------------------------------------------------------------------------*/
 nav{
@@ -142,6 +154,10 @@ nav ul::after{
 
 /*----------------------------------------------------------------------------------------------------*/
 
+img{
+    border-radius: 1px;
+}
+
 h5 a{
     color: white;
     text-decoration: none;
@@ -167,6 +183,25 @@ h5 a:hover {
     background-color: #ffcc00;
     z-index: -1;
     border-radius: 10px;
+}
+
+.banier{
+    border: solid 1px white;
+    border-radius: 10px;
+    background: #141414;
+    position: fixed;
+    top: 2px;
+    right: 2px;
+    width: 71.125%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banier-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ::selection {
