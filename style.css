@@ -2,10 +2,20 @@ HTML CSSResult Skip Results Iframe
 EDIT ON
 /*Reset CSS*/
 
-html{
-    margin: 0;
+html, body {
+    height: 100%;
+    margin: auto;
     padding: 0;
+    background-color: #141414;
+    color: white;
+    font-family: Arial;
+    text-align: center;
 }
+
+  .dark-mode {
+    background-color: #ebebeb;
+    color:  #141414;
+  }
 
 a{
     color: white;
@@ -14,42 +24,50 @@ a{
     font-size: 18px;
 }
 
-body {
-    background-color: #141414;
-    color: white;
-    font-family: Arial;
-    text-align: center;
-    margin: auto;
-  }
-  .dark-mode {
-    background-color: #ebebeb;
-    color:  #141414;
-  }
-
 h6 a{
     color: white;
     text-decoration: none;
     font-family: Arial;
     font-size: 14px;
-    position: center;
 	margin: 0px auto;
     border: 1px solid white;
     background: #0081c7;
     width: 250px;
     border-radius: 10px;
     padding: 0;
-    margin: 0;
-    display: center;
+    margin: 15.3px;
     display: block; /*Toute la surface sera cliquable*/
     text-decoration: none;
     color: white;
-    border-style: 5px white;
+
     padding: 13px 0px;/*Agrandit le menu et espace la bordure du texte*/
 }
 
 h6 a:hover {
     background-color: #ffcc00;
-    z-index: -1;
+    border-radius: 10px;
+}
+
+h5 a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+	margin: 0px auto;
+    border: 1px solid white;
+    background: #1fa22d;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+    padding: 13px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+h5 a:hover {
+    background-color: #ffcc00;
     border-radius: 10px;
 }
 
@@ -57,8 +75,6 @@ h3 a{
     color: #1fa22d;
     font-size: 18px;
 }
-
-
 
 hr {
     background-color: #6b6b6b;
@@ -70,9 +86,13 @@ hr {
     background-color: #ebebeb;
   }
 
+  iframe {
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+
 /*-----------------------------------------------------------------------------------------------*/
 nav{
-    position: center;
 	margin: 0px auto;
     border: 1px solid white;
     background: #0081c7;
@@ -93,6 +113,7 @@ nav ul{
 
 nav ul li:hover {
     background-color: #ffcc00;
+    position: relative;
     z-index: -1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -104,24 +125,16 @@ nav ul li{
     float: left;
     width: 50%;/*100% divisé par le nombre d'éléments de menu*/
     text-align: center;/*Centre le texte dans les éléments de menu*/
-    bottom: center;
     margin: 0;
     padding: 0;
 }
 
 nav a{
-    display: center;
     display: block; /*Toute la surface sera cliquable*/
     text-decoration: none;
     color: white;
     border-bottom: 0px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    border-style: 5px white;
     padding: 15px 0px;/*Agrandit le menu et espace la bordure du texte*/
-}
-
-.navlink:last-child {
-    border-left: none;
-    border-right: none;
 }
 
 .conteneur{
@@ -158,43 +171,15 @@ img{
     border-radius: 1px;
 }
 
-h5 a{
-    color: white;
-    text-decoration: none;
-    font-family: Arial;
-    font-size: 14px;
-    position: center;
-	margin: 0px auto;
-    border: 1px solid white;
-    background: #1fa22d;
-    width: 250px;
-    border-radius: 10px;
-    padding: 0;
-    margin: 0;
-    display: center;
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: white;
-    border-style: 5px white;
-    padding: 13px 0px;/*Agrandit le menu et espace la bordure du texte*/
-}
-
-h5 a:hover {
-    background-color: #ffcc00;
-    z-index: -1;
-    border-radius: 10px;
-}
-
 .banier{
     border: solid 1px white;
     border-radius: 10px;
     background: #141414;
     position: fixed;
-    top: 2px;
-    right: 2px;
-    width: 71.125%;
+    bottom: 15px;
+    left: 15px;
+    width: 25%;
     color: white;
-    display: flex;
     justify-content: space-around;
 }
 
@@ -202,6 +187,54 @@ h5 a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btnligne{
+    background: #141414;
+    top: 2px;
+    color: white;
+    margin: 0px auto; 
+    padding: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnligne-item{
+    width: 23%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    .btnligne-item {
+        width: 50%;
+        
+    }
+    .btnligne{
+        margin: 2%;
+        padding: 2%;
+    }
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+  
+.column1 {
+    flex: 1;
+    padding: 0px;
+}
+
+.column2 {
+    flex: 1;
+    padding: 0px;
+}
+
+.column3 {
+    flex: 1;
+    padding: 0px;
 }
 
 ::selection {
