@@ -171,6 +171,15 @@ img{
     border-radius: 1px;
 }
 
+.img-responsive{
+    max-width : 100%;
+    width: auto;
+    height: auto;
+    display: block;
+
+    height: calc(100% - 100px);
+}
+
 .banier{
     border: solid 1px white;
     border-radius: 10px;
@@ -235,6 +244,33 @@ img{
 .column3 {
     flex: 1;
     padding: 0px;
+}
+
+.base-div-gal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+  
+.bdg-1 {
+    flex: 1;
+    padding: 0px;
+}
+
+.bdg-2 {
+    flex: 1;
+    padding: 0px;
+}
+
+.bdg-3 {
+    flex: 1;
+    padding: 0px;
+}
+
+.text-div-gal{
+    margin-bottom: 25%;
 }
 
 ::selection {
