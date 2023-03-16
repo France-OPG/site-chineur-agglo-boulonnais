@@ -210,6 +210,18 @@ img{
     align-items: center;
 }
 
+.btnligne2{
+    background: #141414;
+    top: 2px;
+    color: white;
+    margin: 0px auto; 
+    padding: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .btnligne-item{
     width: 23%;
     margin-bottom: 10px;
