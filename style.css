@@ -17,6 +17,10 @@ html, body {
     color:  #141414;
   }
 
+iframe{
+    background-color: #141414
+}
+
 a{
     color: white;
     text-decoration: none;
